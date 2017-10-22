@@ -1,0 +1,3 @@
+R:/Dienste/C Projects/Hazelnut/cmake-build-debug/CMakeFiles/Hazelnut.dir
+R:/Dienste/C Projects/Hazelnut/cmake-build-debug/CMakeFiles/edit_cache.dir
+R:/Dienste/C Projects/Hazelnut/cmake-build-debug/CMakeFiles/rebuild_cache.dir

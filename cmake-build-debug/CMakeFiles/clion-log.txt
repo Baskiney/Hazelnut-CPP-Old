@@ -1,0 +1,5 @@
+"R:\Dienste\CLion 2017.2.3\bin\cmake\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - MinGW Makefiles" "R:\Dienste\C Projects\Hazelnut"
+-- Found SFML .. in R:/Dienste/MinGW/SFML/include
+-- Configuring done
+-- Generating done
+-- Build files have been written to: R:/Dienste/C Projects/Hazelnut/cmake-build-debug

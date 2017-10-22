@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="Hazelnut"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\cmake_modules\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="R:/Dienste/C Projects/Hazelnut/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="R:/Dienste/MinGW/bin/mingw32-make.exe -f &quot;R:/Dienste/C Projects/Hazelnut/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="R:/Dienste/MinGW/bin/mingw32-make.exe -f &quot;R:/Dienste/C Projects/Hazelnut/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="R:/Dienste/MinGW/bin/mingw32-make.exe -f &quot;R:/Dienste/C Projects/Hazelnut/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="R:/Dienste/MinGW/bin/mingw32-make.exe -f &quot;R:/Dienste/C Projects/Hazelnut/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Hazelnut">
+				<Option output="R:/Dienste/C Projects/Hazelnut/cmake-build-debug/Hazelnut.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="R:/Dienste/C Projects/Hazelnut/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="R:/Dienste/MinGW"/>
+					<Add directory="R:/Dienste/MinGW/SFML/include"/>
+					<Add directory="r:\dienste\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++"/>
+					<Add directory="r:\dienste\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++/mingw32"/>
+					<Add directory="r:\dienste\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++/backward"/>
+					<Add directory="r:\dienste\mingw\bin\../lib/gcc/mingw32/6.3.0/include"/>
+					<Add directory="r:\dienste\mingw\bin\../lib/gcc/mingw32/6.3.0/../../../../include"/>
+					<Add directory="r:\dienste\mingw\bin\../lib/gcc/mingw32/6.3.0/include-fixed"/>
+					<Add directory="r:\dienste\mingw\bin\../lib/gcc/mingw32/6.3.0/../../../../mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="R:/Dienste/MinGW/bin/mingw32-make.exe -f &quot;R:/Dienste/C Projects/Hazelnut/cmake-build-debug/Makefile&quot;  VERBOSE=1 Hazelnut"/>
+					<CompileFile command="R:/Dienste/MinGW/bin/mingw32-make.exe -f &quot;R:/Dienste/C Projects/Hazelnut/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="R:/Dienste/MinGW/bin/mingw32-make.exe -f &quot;R:/Dienste/C Projects/Hazelnut/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="R:/Dienste/MinGW/bin/mingw32-make.exe -f &quot;R:/Dienste/C Projects/Hazelnut/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Hazelnut/fast">
+				<Option output="R:/Dienste/C Projects/Hazelnut/cmake-build-debug/Hazelnut.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="R:/Dienste/C Projects/Hazelnut/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="R:/Dienste/MinGW"/>
+					<Add directory="R:/Dienste/MinGW/SFML/include"/>
+					<Add directory="r:\dienste\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++"/>
+					<Add directory="r:\dienste\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++/mingw32"/>
+					<Add directory="r:\dienste\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++/backward"/>
+					<Add directory="r:\dienste\mingw\bin\../lib/gcc/mingw32/6.3.0/include"/>
+					<Add directory="r:\dienste\mingw\bin\../lib/gcc/mingw32/6.3.0/../../../../include"/>
+					<Add directory="r:\dienste\mingw\bin\../lib/gcc/mingw32/6.3.0/include-fixed"/>
+					<Add directory="r:\dienste\mingw\bin\../lib/gcc/mingw32/6.3.0/../../../../mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="R:/Dienste/MinGW/bin/mingw32-make.exe -f &quot;R:/Dienste/C Projects/Hazelnut/cmake-build-debug/Makefile&quot;  VERBOSE=1 Hazelnut/fast"/>
+					<CompileFile command="R:/Dienste/MinGW/bin/mingw32-make.exe -f &quot;R:/Dienste/C Projects/Hazelnut/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="R:/Dienste/MinGW/bin/mingw32-make.exe -f &quot;R:/Dienste/C Projects/Hazelnut/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="R:/Dienste/MinGW/bin/mingw32-make.exe -f &quot;R:/Dienste/C Projects/Hazelnut/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="R:/Dienste/C Projects/Hazelnut/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="R:/Dienste/MinGW/bin/mingw32-make.exe -f &quot;R:/Dienste/C Projects/Hazelnut/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="R:/Dienste/MinGW/bin/mingw32-make.exe -f &quot;R:/Dienste/C Projects/Hazelnut/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="R:/Dienste/MinGW/bin/mingw32-make.exe -f &quot;R:/Dienste/C Projects/Hazelnut/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="R:/Dienste/MinGW/bin/mingw32-make.exe -f &quot;R:/Dienste/C Projects/Hazelnut/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="R:/Dienste/C Projects/Hazelnut/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="R:/Dienste/MinGW/bin/mingw32-make.exe -f &quot;R:/Dienste/C Projects/Hazelnut/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="R:/Dienste/MinGW/bin/mingw32-make.exe -f &quot;R:/Dienste/C Projects/Hazelnut/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="R:/Dienste/MinGW/bin/mingw32-make.exe -f &quot;R:/Dienste/C Projects/Hazelnut/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="R:/Dienste/MinGW/bin/mingw32-make.exe -f &quot;R:/Dienste/C Projects/Hazelnut/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="R:/Dienste/C Projects/Hazelnut/main.cpp">
+			<Option target="Hazelnut"/>
+		</Unit>
+		<Unit filename="R:/Dienste/C Projects/Hazelnut/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="R:/Dienste/C Projects/Hazelnut/cmake_modules/FindGLM.cmake">
+			<Option virtualFolder="CMake Files\cmake_modules\"/>
+		</Unit>
+		<Unit filename="R:/Dienste/C Projects/Hazelnut/cmake_modules/FindSFML.cmake">
+			<Option virtualFolder="CMake Files\cmake_modules\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
