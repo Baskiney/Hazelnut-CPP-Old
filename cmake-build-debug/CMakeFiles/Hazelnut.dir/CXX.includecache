@@ -6,13 +6,25 @@
 
 #IncludeRegexTransform: 
 
-R:/Dienste/C Projects/Hazelnut/main.cpp
+R:/Dienste/C Projects/Hazelnut/source/constant/window_constants.cpp
+iostream
+-
+window_constants.h
+R:/Dienste/C Projects/Hazelnut/source/constant/window_constants.h
+
+R:/Dienste/C Projects/Hazelnut/source/constant/window_constants.h
+SFML/Graphics.hpp
+-
+
+R:/Dienste/C Projects/Hazelnut/source/main.cpp
 iostream
 -
 GLM/glm.hpp
 -
 SFML/Graphics.hpp
 -
+constant/window_constants.h
+R:/Dienste/C Projects/Hazelnut/source/constant/window_constants.h
 
 R:/Dienste/MinGW/GLM/common.hpp
 detail/func_common.hpp

@@ -1,5 +1,6 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/Hazelnut.dir/main.cpp.obj"
+  "CMakeFiles/Hazelnut.dir/source/main.cpp.obj"
+  "CMakeFiles/Hazelnut.dir/source/constant/window_constants.cpp.obj"
   "Hazelnut.pdb"
   "Hazelnut.exe"
   "Hazelnut.exe.manifest"

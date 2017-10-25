@@ -56,39 +56,66 @@ include CMakeFiles/Hazelnut.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/Hazelnut.dir/flags.make
 
-CMakeFiles/Hazelnut.dir/main.cpp.obj: CMakeFiles/Hazelnut.dir/flags.make
-CMakeFiles/Hazelnut.dir/main.cpp.obj: CMakeFiles/Hazelnut.dir/includes_CXX.rsp
-CMakeFiles/Hazelnut.dir/main.cpp.obj: ../main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="R:\Dienste\C Projects\Hazelnut\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Hazelnut.dir/main.cpp.obj"
-	R:\Dienste\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Hazelnut.dir\main.cpp.obj -c "R:\Dienste\C Projects\Hazelnut\main.cpp"
+CMakeFiles/Hazelnut.dir/source/main.cpp.obj: CMakeFiles/Hazelnut.dir/flags.make
+CMakeFiles/Hazelnut.dir/source/main.cpp.obj: CMakeFiles/Hazelnut.dir/includes_CXX.rsp
+CMakeFiles/Hazelnut.dir/source/main.cpp.obj: ../source/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="R:\Dienste\C Projects\Hazelnut\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Hazelnut.dir/source/main.cpp.obj"
+	R:\Dienste\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Hazelnut.dir\source\main.cpp.obj -c "R:\Dienste\C Projects\Hazelnut\source\main.cpp"
 
-CMakeFiles/Hazelnut.dir/main.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Hazelnut.dir/main.cpp.i"
-	R:\Dienste\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "R:\Dienste\C Projects\Hazelnut\main.cpp" > CMakeFiles\Hazelnut.dir\main.cpp.i
+CMakeFiles/Hazelnut.dir/source/main.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Hazelnut.dir/source/main.cpp.i"
+	R:\Dienste\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "R:\Dienste\C Projects\Hazelnut\source\main.cpp" > CMakeFiles\Hazelnut.dir\source\main.cpp.i
 
-CMakeFiles/Hazelnut.dir/main.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Hazelnut.dir/main.cpp.s"
-	R:\Dienste\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "R:\Dienste\C Projects\Hazelnut\main.cpp" -o CMakeFiles\Hazelnut.dir\main.cpp.s
+CMakeFiles/Hazelnut.dir/source/main.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Hazelnut.dir/source/main.cpp.s"
+	R:\Dienste\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "R:\Dienste\C Projects\Hazelnut\source\main.cpp" -o CMakeFiles\Hazelnut.dir\source\main.cpp.s
 
-CMakeFiles/Hazelnut.dir/main.cpp.obj.requires:
+CMakeFiles/Hazelnut.dir/source/main.cpp.obj.requires:
 
-.PHONY : CMakeFiles/Hazelnut.dir/main.cpp.obj.requires
+.PHONY : CMakeFiles/Hazelnut.dir/source/main.cpp.obj.requires
 
-CMakeFiles/Hazelnut.dir/main.cpp.obj.provides: CMakeFiles/Hazelnut.dir/main.cpp.obj.requires
-	$(MAKE) -f CMakeFiles\Hazelnut.dir\build.make CMakeFiles/Hazelnut.dir/main.cpp.obj.provides.build
-.PHONY : CMakeFiles/Hazelnut.dir/main.cpp.obj.provides
+CMakeFiles/Hazelnut.dir/source/main.cpp.obj.provides: CMakeFiles/Hazelnut.dir/source/main.cpp.obj.requires
+	$(MAKE) -f CMakeFiles\Hazelnut.dir\build.make CMakeFiles/Hazelnut.dir/source/main.cpp.obj.provides.build
+.PHONY : CMakeFiles/Hazelnut.dir/source/main.cpp.obj.provides
 
-CMakeFiles/Hazelnut.dir/main.cpp.obj.provides.build: CMakeFiles/Hazelnut.dir/main.cpp.obj
+CMakeFiles/Hazelnut.dir/source/main.cpp.obj.provides.build: CMakeFiles/Hazelnut.dir/source/main.cpp.obj
+
+
+CMakeFiles/Hazelnut.dir/source/constant/window_constants.cpp.obj: CMakeFiles/Hazelnut.dir/flags.make
+CMakeFiles/Hazelnut.dir/source/constant/window_constants.cpp.obj: CMakeFiles/Hazelnut.dir/includes_CXX.rsp
+CMakeFiles/Hazelnut.dir/source/constant/window_constants.cpp.obj: ../source/constant/window_constants.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="R:\Dienste\C Projects\Hazelnut\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/Hazelnut.dir/source/constant/window_constants.cpp.obj"
+	R:\Dienste\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Hazelnut.dir\source\constant\window_constants.cpp.obj -c "R:\Dienste\C Projects\Hazelnut\source\constant\window_constants.cpp"
+
+CMakeFiles/Hazelnut.dir/source/constant/window_constants.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Hazelnut.dir/source/constant/window_constants.cpp.i"
+	R:\Dienste\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "R:\Dienste\C Projects\Hazelnut\source\constant\window_constants.cpp" > CMakeFiles\Hazelnut.dir\source\constant\window_constants.cpp.i
+
+CMakeFiles/Hazelnut.dir/source/constant/window_constants.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Hazelnut.dir/source/constant/window_constants.cpp.s"
+	R:\Dienste\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "R:\Dienste\C Projects\Hazelnut\source\constant\window_constants.cpp" -o CMakeFiles\Hazelnut.dir\source\constant\window_constants.cpp.s
+
+CMakeFiles/Hazelnut.dir/source/constant/window_constants.cpp.obj.requires:
+
+.PHONY : CMakeFiles/Hazelnut.dir/source/constant/window_constants.cpp.obj.requires
+
+CMakeFiles/Hazelnut.dir/source/constant/window_constants.cpp.obj.provides: CMakeFiles/Hazelnut.dir/source/constant/window_constants.cpp.obj.requires
+	$(MAKE) -f CMakeFiles\Hazelnut.dir\build.make CMakeFiles/Hazelnut.dir/source/constant/window_constants.cpp.obj.provides.build
+.PHONY : CMakeFiles/Hazelnut.dir/source/constant/window_constants.cpp.obj.provides
+
+CMakeFiles/Hazelnut.dir/source/constant/window_constants.cpp.obj.provides.build: CMakeFiles/Hazelnut.dir/source/constant/window_constants.cpp.obj
 
 
 # Object files for target Hazelnut
 Hazelnut_OBJECTS = \
-"CMakeFiles/Hazelnut.dir/main.cpp.obj"
+"CMakeFiles/Hazelnut.dir/source/main.cpp.obj" \
+"CMakeFiles/Hazelnut.dir/source/constant/window_constants.cpp.obj"
 
 # External object files for target Hazelnut
 Hazelnut_EXTERNAL_OBJECTS =
 
-Hazelnut.exe: CMakeFiles/Hazelnut.dir/main.cpp.obj
+Hazelnut.exe: CMakeFiles/Hazelnut.dir/source/main.cpp.obj
+Hazelnut.exe: CMakeFiles/Hazelnut.dir/source/constant/window_constants.cpp.obj
 Hazelnut.exe: CMakeFiles/Hazelnut.dir/build.make
 Hazelnut.exe: R:/Dienste/MinGW/SFML/lib/libsfml-network-d.a
 Hazelnut.exe: R:/Dienste/MinGW/SFML/lib/libsfml-audio-d.a
@@ -98,7 +125,7 @@ Hazelnut.exe: R:/Dienste/MinGW/SFML/lib/libsfml-system-d.a
 Hazelnut.exe: CMakeFiles/Hazelnut.dir/linklibs.rsp
 Hazelnut.exe: CMakeFiles/Hazelnut.dir/objects1.rsp
 Hazelnut.exe: CMakeFiles/Hazelnut.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="R:\Dienste\C Projects\Hazelnut\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable Hazelnut.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="R:\Dienste\C Projects\Hazelnut\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable Hazelnut.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\Hazelnut.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -106,7 +133,8 @@ CMakeFiles/Hazelnut.dir/build: Hazelnut.exe
 
 .PHONY : CMakeFiles/Hazelnut.dir/build
 
-CMakeFiles/Hazelnut.dir/requires: CMakeFiles/Hazelnut.dir/main.cpp.obj.requires
+CMakeFiles/Hazelnut.dir/requires: CMakeFiles/Hazelnut.dir/source/main.cpp.obj.requires
+CMakeFiles/Hazelnut.dir/requires: CMakeFiles/Hazelnut.dir/source/constant/window_constants.cpp.obj.requires
 
 .PHONY : CMakeFiles/Hazelnut.dir/requires
 

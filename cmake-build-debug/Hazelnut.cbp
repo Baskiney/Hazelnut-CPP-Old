@@ -86,7 +86,13 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="R:/Dienste/C Projects/Hazelnut/main.cpp">
+		<Unit filename="R:/Dienste/C Projects/Hazelnut/source/constant/window_constants.cpp">
+			<Option target="Hazelnut"/>
+		</Unit>
+		<Unit filename="R:/Dienste/C Projects/Hazelnut/source/constant/window_constants.h">
+			<Option target="Hazelnut"/>
+		</Unit>
+		<Unit filename="R:/Dienste/C Projects/Hazelnut/source/main.cpp">
 			<Option target="Hazelnut"/>
 		</Unit>
 		<Unit filename="R:/Dienste/C Projects/Hazelnut/CMakeLists.txt">

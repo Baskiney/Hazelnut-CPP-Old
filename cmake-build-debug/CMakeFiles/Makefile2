@@ -65,7 +65,7 @@ CMAKE_BINARY_DIR = "R:\Dienste\C Projects\Hazelnut\cmake-build-debug"
 CMakeFiles/Hazelnut.dir/all:
 	$(MAKE) -f CMakeFiles\Hazelnut.dir\build.make CMakeFiles/Hazelnut.dir/depend
 	$(MAKE) -f CMakeFiles\Hazelnut.dir\build.make CMakeFiles/Hazelnut.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="R:\Dienste\C Projects\Hazelnut\cmake-build-debug\CMakeFiles" --progress-num=1,2 "Built target Hazelnut"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="R:\Dienste\C Projects\Hazelnut\cmake-build-debug\CMakeFiles" --progress-num=1,2,3 "Built target Hazelnut"
 .PHONY : CMakeFiles/Hazelnut.dir/all
 
 # Include target in all.
@@ -75,7 +75,7 @@ all: CMakeFiles/Hazelnut.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/Hazelnut.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "R:\Dienste\C Projects\Hazelnut\cmake-build-debug\CMakeFiles" 2
+	$(CMAKE_COMMAND) -E cmake_progress_start "R:\Dienste\C Projects\Hazelnut\cmake-build-debug\CMakeFiles" 3
 	$(MAKE) -f CMakeFiles\Makefile2 CMakeFiles/Hazelnut.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start "R:\Dienste\C Projects\Hazelnut\cmake-build-debug\CMakeFiles" 0
 .PHONY : CMakeFiles/Hazelnut.dir/rule

@@ -122,32 +122,59 @@ Hazelnut/fast:
 	$(MAKE) -f CMakeFiles\Hazelnut.dir\build.make CMakeFiles/Hazelnut.dir/build
 .PHONY : Hazelnut/fast
 
-main.obj: main.cpp.obj
+source/constant/window_constants.obj: source/constant/window_constants.cpp.obj
 
-.PHONY : main.obj
+.PHONY : source/constant/window_constants.obj
 
 # target to build an object file
-main.cpp.obj:
-	$(MAKE) -f CMakeFiles\Hazelnut.dir\build.make CMakeFiles/Hazelnut.dir/main.cpp.obj
-.PHONY : main.cpp.obj
+source/constant/window_constants.cpp.obj:
+	$(MAKE) -f CMakeFiles\Hazelnut.dir\build.make CMakeFiles/Hazelnut.dir/source/constant/window_constants.cpp.obj
+.PHONY : source/constant/window_constants.cpp.obj
 
-main.i: main.cpp.i
+source/constant/window_constants.i: source/constant/window_constants.cpp.i
 
-.PHONY : main.i
+.PHONY : source/constant/window_constants.i
 
 # target to preprocess a source file
-main.cpp.i:
-	$(MAKE) -f CMakeFiles\Hazelnut.dir\build.make CMakeFiles/Hazelnut.dir/main.cpp.i
-.PHONY : main.cpp.i
+source/constant/window_constants.cpp.i:
+	$(MAKE) -f CMakeFiles\Hazelnut.dir\build.make CMakeFiles/Hazelnut.dir/source/constant/window_constants.cpp.i
+.PHONY : source/constant/window_constants.cpp.i
 
-main.s: main.cpp.s
+source/constant/window_constants.s: source/constant/window_constants.cpp.s
 
-.PHONY : main.s
+.PHONY : source/constant/window_constants.s
 
 # target to generate assembly for a file
-main.cpp.s:
-	$(MAKE) -f CMakeFiles\Hazelnut.dir\build.make CMakeFiles/Hazelnut.dir/main.cpp.s
-.PHONY : main.cpp.s
+source/constant/window_constants.cpp.s:
+	$(MAKE) -f CMakeFiles\Hazelnut.dir\build.make CMakeFiles/Hazelnut.dir/source/constant/window_constants.cpp.s
+.PHONY : source/constant/window_constants.cpp.s
+
+source/main.obj: source/main.cpp.obj
+
+.PHONY : source/main.obj
+
+# target to build an object file
+source/main.cpp.obj:
+	$(MAKE) -f CMakeFiles\Hazelnut.dir\build.make CMakeFiles/Hazelnut.dir/source/main.cpp.obj
+.PHONY : source/main.cpp.obj
+
+source/main.i: source/main.cpp.i
+
+.PHONY : source/main.i
+
+# target to preprocess a source file
+source/main.cpp.i:
+	$(MAKE) -f CMakeFiles\Hazelnut.dir\build.make CMakeFiles/Hazelnut.dir/source/main.cpp.i
+.PHONY : source/main.cpp.i
+
+source/main.s: source/main.cpp.s
+
+.PHONY : source/main.s
+
+# target to generate assembly for a file
+source/main.cpp.s:
+	$(MAKE) -f CMakeFiles\Hazelnut.dir\build.make CMakeFiles/Hazelnut.dir/source/main.cpp.s
+.PHONY : source/main.cpp.s
 
 # Help Target
 help:
@@ -158,9 +185,12 @@ help:
 	@echo ... Hazelnut
 	@echo ... edit_cache
 	@echo ... rebuild_cache
-	@echo ... main.obj
-	@echo ... main.i
-	@echo ... main.s
+	@echo ... source/constant/window_constants.obj
+	@echo ... source/constant/window_constants.i
+	@echo ... source/constant/window_constants.s
+	@echo ... source/main.obj
+	@echo ... source/main.i
+	@echo ... source/main.s
 .PHONY : help
 
 
